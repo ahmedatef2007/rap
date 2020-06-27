@@ -5,25 +5,34 @@
 /*global css */
 @import url(global.css);
 /*start nav*/
-.header-area .main-menu .nav-item .nav-link{
-  font:normal 200 var(--roboto);
-  color:var(--title-color);
-  line-height: 2px;
-  font-size: 15px;
-  padding: 1.6rem;
-  text-align: center;
+.header .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
 }
-.header-area .main-menu .navbar-nav a:hover {
+
+.header .main-menu .navbar {
+  padding: rem 20rem;
+}
+
+.header .main-menu .nav-item .nav-link {
+  font: normal 500 15px var(--roboto);
+  line-height: 2px;
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header .main-menu .navbar-nav .active a {
   background: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.header-area .main-menu .nav-item .nav-link:last-of-type{
-  padding-right: 0;
-}
-.navbar-brand img{
-width:100%;
+
+.header .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 /*end nav*/
 /*start banner*/
